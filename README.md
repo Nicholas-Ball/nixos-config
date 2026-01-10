@@ -132,7 +132,6 @@ You can find my previous Catppuccin rice [here](https://github.com/Frost-Phoenix
 | **Text Editor**             | [VSCodium][VSCodium] + [Neovim][Neovim] |
 | **network management tool** | [NetworkManager][NetworkManager] + [network-manager-applet][network-manager-applet] |
 | **System resource monitor** | [Btop][Btop] |
-| **File Manager**            | [superfile][superfile] + [nemo][nemo] |
 | **Fonts**                   | [Maple Mono][Maple Mono] |
 | **Color Scheme**            | [Gruvbox Dark Hard][Gruvbox] |
 | **GTK theme**               | [Colloid gtk theme][Colloid gtk theme] |

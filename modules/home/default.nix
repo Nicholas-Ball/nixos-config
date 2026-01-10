@@ -32,7 +32,6 @@
     ./signal.nix # signal client
     ./spicetify.nix # spotify client
     ./ssh.nix # ssh config
-    #./superfile/superfile.nix # terminal file manager
     ./swaylock.nix # lock screen
     ./swaync/swaync.nix # notification deamon
     ./swayosd.nix # brightness / volume wiget
