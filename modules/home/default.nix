@@ -11,6 +11,7 @@
     ./fastfetch/fastfetch.nix # fetch tool
     ./fzf.nix # fuzzy finder
     ./gaming.nix # packages related to gaming
+    ./go.nix # go programming language
     ./ghostty/ghostty.nix # terminal
     ./git.nix # version control
     ./gnome.nix # gnome apps
@@ -28,10 +29,10 @@
     ./rust.nix # rust programming language
     ./rofi/rofi.nix # launcher
     ./../../scripts/scripts.nix # personal scripts
-    ./signal # signal client
+    ./signal.nix # signal client
     ./spicetify.nix # spotify client
     ./ssh.nix # ssh config
-    ./superfile/superfile.nix # terminal file manager
+    #./superfile/superfile.nix # terminal file manager
     ./swaylock.nix # lock screen
     ./swaync/swaync.nix # notification deamon
     ./swayosd.nix # brightness / volume wiget
