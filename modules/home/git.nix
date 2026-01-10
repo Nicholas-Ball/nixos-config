@@ -5,8 +5,9 @@
 
     settings = {
       user = {
-        name = "Frost-Phoenix";
-        email = "67cyril6767@gmail.com";
+        name = "Nicholas-Ball";
+        email = "89214070+Nicholas-Ball@users.noreply.github.com";
+        signingkey = "/home/${username}/.ssh/id_ed25519";
       };
 
       init.defaultBranch = "main";
@@ -14,6 +15,10 @@
       diff.colorMoved = "default";
       pull.ff = "only";
       color.ui = true;
+
+      gpg.format = "ssh";
+      commit.gpgsign = true;
+      tag.gpgsign = true;
 
       url = {
         "git@github.com:".insteadOf = [
