@@ -22,6 +22,9 @@
       HandlePowerKey = "ignore";
     };
 
+    # postgres
+    postgresql.enable = true;
+
     udisks2.enable = true;
   };
 }
