@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ./anki.nix # notcards
     ./aseprite/aseprite.nix # pixel art editor
     ./audacious/audacious.nix # music player
     ./bat.nix # better cat command
@@ -43,5 +44,6 @@
     ./xdg-mimes.nix # xdg config
     ./zed.nix # zed editor
     ./zsh # shell
+    ./zoom-us # video conferencing
   ];
 }
