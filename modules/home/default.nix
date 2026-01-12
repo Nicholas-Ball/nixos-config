@@ -17,6 +17,7 @@
     ./gnome.nix # gnome apps
     ./gtk.nix # gtk theme
     ./hyprland # window manager
+    ./just.nix # task runner
     ./kitty.nix # terminal
     ./lazygit.nix
     ./micro.nix # nano replacement
