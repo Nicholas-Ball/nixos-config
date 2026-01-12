@@ -24,6 +24,7 @@
     ./nvim.nix # neovim editor
     ./obsidian.nix
     ./p10k/p10k.nix
+    ./pomo/pomo.nix
     ./packages # other packages
     ./retroarch.nix
     ./rust.nix # rust programming language
