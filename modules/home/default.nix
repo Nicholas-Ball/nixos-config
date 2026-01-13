@@ -44,6 +44,6 @@
     ./xdg-mimes.nix # xdg config
     ./zed.nix # zed editor
     ./zsh # shell
-    ./zoom-us # video conferencing
+    ./zoom.nix # video conferencing
   ];
 }
