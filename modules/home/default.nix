@@ -23,6 +23,7 @@
     ./lazygit.nix
     ./micro.nix # nano replacement
     ./nemo.nix # file manager
+    ./nil.nix
     ./nvim.nix # neovim editor
     ./obsidian.nix
     ./p10k/p10k.nix
