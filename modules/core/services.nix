@@ -3,6 +3,11 @@
   services = {
     gvfs.enable = true;
 
+    mullvad-vpn = {
+      enable = true;
+      package = pkgs.mullvad-vpn;
+    };
+
     gnome = {
       tinysparql.enable = true;
       gnome-keyring.enable = true;

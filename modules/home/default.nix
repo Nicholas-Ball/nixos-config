@@ -39,6 +39,7 @@
     ./swaylock.nix # lock screen
     ./swaync/swaync.nix # notification deamon
     ./swayosd.nix # brightness / volume wiget
+    ./tor.nix # tor browser
     ./vscodium # vscode fork
     ./waybar # status bar
     ./waypaper.nix # GUI wallpaper picker
