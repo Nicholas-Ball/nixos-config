@@ -19,6 +19,7 @@
     ./gtk.nix # gtk theme
     ./hyprland # window manager
     ./just.nix # task runner
+    ./kdenlive.nix # video editor
     ./kitty.nix # terminal
     ./lazygit.nix
     ./micro.nix # nano replacement
