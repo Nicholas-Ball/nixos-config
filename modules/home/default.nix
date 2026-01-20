@@ -21,6 +21,7 @@
     ./just.nix # task runner
     ./kdenlive.nix # video editor
     ./kitty.nix # terminal
+    ./koodo.nix # koodo reader
     ./lazygit.nix
     ./micro.nix # nano replacement
     ./nemo.nix # file manager
