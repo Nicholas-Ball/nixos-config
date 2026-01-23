@@ -20,6 +20,7 @@
     ./hyprland # window manager
     ./just.nix # task runner
     ./kdenlive.nix # video editor
+    ./kicad.nix # circuit design
     ./kitty.nix # terminal
     ./koodo.nix # koodo reader
     ./lazygit.nix
