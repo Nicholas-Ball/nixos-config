@@ -30,6 +30,9 @@
     # postgres
     postgresql.enable = true;
 
+    #blueman
+    blueman.enable = true;
+
     udisks2.enable = true;
   };
 }

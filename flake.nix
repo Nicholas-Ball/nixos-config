@@ -28,10 +28,17 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake/beta";
+
+    nilla-cli.url = "github:nilla-nix/cli";
   };
 
   outputs =
-    { nixpkgs, self, ... }@inputs:
+    {
+      nixpkgs,
+      nilla-cli,
+      self,
+      ...
+    }@inputs:
     let
       username = "nicholasb";
       system = "x86_64-linux";
@@ -53,7 +60,18 @@
         };
         laptop = nixpkgs.lib.nixosSystem {
           inherit system;
-          modules = [ ./hosts/laptop ];
+          modules = [
+            ./hosts/laptop
+            (
+              { pkgs, ... }:
+              {
+                environment.systemPackages = [
+                  # Add the Nilla CLI to your system packages.
+                  nilla-cli.packages.${pkgs.system}.default
+                ];
+              }
+            )
+          ];
           specialArgs = {
             host = "laptop";
             inherit self inputs username;

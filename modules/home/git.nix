@@ -20,13 +20,13 @@
       commit.gpgsign = true;
       tag.gpgsign = true;
 
-      url = {
-        "git@github.com:".insteadOf = [
-          "gh:"
-          "https://github.com/"
-        ];
-        "git@github.com:frost-phoenix/".insteadOf = "fp:";
-      };
+      # url = {
+      #   "git@github.com:".insteadOf = [
+      #     "gh:"
+      #     "https://github.com/"
+      #   ];
+      #   "git@github.com:frost-phoenix/".insteadOf = "fp:";
+      # };
 
       core.excludesFile = "/home/${username}/.config/git/.gitignore";
     };
