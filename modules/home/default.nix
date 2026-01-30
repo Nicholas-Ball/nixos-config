@@ -19,7 +19,7 @@
     ./gtk.nix # gtk theme
     ./hyprland # window manager
     ./just.nix # task runner
-    ./kdenlive.nix # video editor
+    # ./kdenlive.nix # video editor
     ./kicad.nix # circuit design
     ./kitty.nix # terminal
     ./koodo.nix # koodo reader
@@ -29,6 +29,7 @@
     ./nil.nix
     ./nvim.nix # neovim editor
     ./obsidian.nix
+    ./opencode.nix # opencode editor
     ./p10k/p10k.nix
     ./pomo/pomo.nix
     ./packages # other packages

@@ -3,8 +3,7 @@
   wayland.windowManager.hyprland = {
     settings.monitor = [
       ",1920x1080,auto,1"
-      "DP-2,preferred,3840x0,1"
-      ",preferred,auto,1,mirror,eDP-1"
+      ",preferred,auto-right,1"
     ];
 
     extraConfig = ''
